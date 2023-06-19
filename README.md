@@ -11,7 +11,7 @@ gcc -Wall
 -Werror -Wextra -pedantic *.c -o sodash ./sodash Sodash is allowed to be invoked interactively and non-interactively. If sodash is invoked with standard input not connected to a terminal, it reads and executes received commands in order.
 
 # Example:
-$ echo "echo 'holberton'" | ./sodash 'holberton' $ When sodash is invoked with standard input connected to a terminal (determined by isatty(3), the interactive mode is opened. sodash Will be using the following prompt ^-^ .
+$ echo "echo 'ALX'" | ./sodash 'ALX' $ When sodash is invoked with standard input connected to a terminal (determined by isatty(3), the interactive mode is opened. sodash Will be using the following prompt ^-^ .
 
 # Example:
 $./sodash ^-^ If a command line argument is invoked, sodash will take that first argument as a file from which to read commands.
